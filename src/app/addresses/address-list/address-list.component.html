@@ -1,0 +1,11 @@
+<div class="row">
+    <div class="col-xs-12">
+        <button routerLink="new" class="btn btn-success">Add Address</button>
+    </div>
+</div>
+<hr>
+<div class="row">
+    <div class="col-xs-12">
+        <app-address-item [id]="i" [address]="address" *ngFor="let address of addresses; let i = index"></app-address-item>
+    </div>
+</div>
