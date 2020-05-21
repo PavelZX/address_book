@@ -1,5 +1,5 @@
 {
-  "name": "address book",
+  "name": "AddressBook",
   "version": "0.0.1",
   "scripts": {
     "ng": "ng",
@@ -20,7 +20,7 @@
     "@angular/material": "^9.2.4",
     "@angular/platform-browser": "^9.1.9",
     "@angular/platform-browser-dynamic": "^9.1.9",
-    "@angular/router": "^.1.7",
+    "@angular/router": "^9.1.9",
     "bootstrap": "^4.5.0",
     "hammerjs": "^2.0.8",
     "rxjs": "^6.5.5",
